@@ -20,7 +20,7 @@ import java.util.Arrays;
 @Tag("apex-charts-wrapper")
 @NpmPackage(value = "apexcharts", version = "3.20.2")
 @NpmPackage(value = "onecolor", version = "3.1.0")
-@JsModule("./com/github/appreciated/apexcharts/apexcharts-wrapper.js")
+@JsModule("com/github/appreciated/apexcharts/apexcharts-wrapper.js")
 @CssImport(value = "./com/github/appreciated/apexcharts/apexcharts-wrapper-styles.css", id = "apex-charts-style")
 public class ApexCharts extends PolymerTemplate<ApexChartsModel> implements HasSize, HasStyle, HasTheme {
     private ObjectMapper objectMapper;
